@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
+import project2 from "../assets/projects/project-2.jpeg";
+import project3 from "../assets/projects/project-3.jpeg";
+import project4 from "../assets/projects/project-4.jpeg";
 
 export const HERO_CONTENT = `I am a passionate Web developer with expertise in HTML, CSS, JavaScript, and React.js, complemented by a strong command of Tailwind CSS for crafting beautiful and responsive user interfaces. With experience in version control using Git and GitHub, I am dedicated to building robust and scalable web applications. My goal is to leverage my skills to create innovative solutions that enhance user experiences and drive business success. Let's connect and explore how I can contribute to your next project!`;
 
-export const ABOUT_TEXT = `Hello! I am a passionate and enthusiastic web developer with a strong foundation in HTML, CSS, JavaScript, and React.js. I have recently embarked on my journey in web development, where I have honed my skills in creating dynamic and responsive websites using Tailwind CSS. My love for coding drives me to continuously learn and explore new technologies, and I am excited to bring my creativity and problem-solving abilities to the world of web development.I thrive on challenges and enjoy transforming ideas into functional and visually appealing web applications. My projects reflect my commitment to quality and user experience, and I am eager to collaborate with others to create innovative solutions.I look forward to connecting with you and discussing how I can contribute to your next project!`;
+export const ABOUT_TEXT = `Hello! I am a passionate and enthusiastic web developer with a strong foundation in HTML, CSS, JavaScript, and React.js. I have recently embarked on my journey in web development, where I have honed my skills in creating dynamic and responsive websites using Tailwind CSS. My love for coding drives me to continuously learn and explore new technologies, and I am excited to bring my creativity and problem-solving abilities to the world of web development.I thrive on challenges ande enjoy transforming ideas into functional and visually appealing web applications. My projects reflect my commitment to quality and user experience, and I am eager to collaborate with others to create innovative solutions.I look forward to connecting with you and discussing how I can contribute to your next project!`;
 
 export const EXPERIENCES = [
   {
@@ -62,6 +62,15 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Java Script"],
     link : "https://cynthiya-portfolio.netlify.app/",
+  },
+
+  {
+    title: "Note Taking App",
+    image: project4,
+    description:
+      "Type on Note is a minimalist, responsive platform for blogging or managing notes, featuring a clean interface and excellent typography.",
+    technologies: ["React", "Tailwind", "Framer Motion"],
+    link : "https://type-on-note.netlify.app/",
   },
 
   
