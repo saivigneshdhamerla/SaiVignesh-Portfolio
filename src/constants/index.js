@@ -45,7 +45,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "TailwindCSS", "React", ],
-    link : "",
+    link : "https://foreversite.netlify.app/",
   },
   {
     title: "Task Management App",
